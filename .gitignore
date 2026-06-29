@@ -11,6 +11,11 @@ replays/verification_report.txt
 # 個人使用紀錄
 .analyzer_history.json
 
+# PyInstaller 打包產出
+build/
+dist/
+*.spec
+
 # Python 快取
 __pycache__/
 *.pyc

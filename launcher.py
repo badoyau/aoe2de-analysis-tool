@@ -4,10 +4,17 @@ AOE2 DE Replay 分析工具 — GUI Launcher
 """
 import tkinter as tk
 from tkinter import ttk, filedialog, scrolledtext
-import subprocess, sys, threading, json, webbrowser, os
+import subprocess, sys, threading, json, webbrowser, os, shutil
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).parent
+# 打包成 exe 後，__file__ 在暫存目錄；用 sys.executable 的父目錄當根目錄
+if getattr(sys, 'frozen', False):
+    PROJECT_ROOT = Path(sys.executable).parent
+    _PYTHON_EXE  = shutil.which('python') or shutil.which('python3') or 'python'
+else:
+    PROJECT_ROOT = Path(__file__).parent
+    _PYTHON_EXE  = sys.executable
+
 SCRIPTS_DIR  = PROJECT_ROOT / "scripts"
 HISTORY_FILE = PROJECT_ROOT / ".analyzer_history.json"
 
@@ -300,7 +307,7 @@ class App(tk.Tk):
             self._set_step(i, "run")
             self._log(f"── {name} ──", "step")
 
-            cmd = [sys.executable, str(script_path), str(replay_path)]
+            cmd = [_PYTHON_EXE, str(script_path), str(replay_path)]
             try:
                 proc = subprocess.Popen(
                     cmd,
