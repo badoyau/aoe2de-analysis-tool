@@ -35,7 +35,11 @@
       "Bash(curl -s \"https://api.github.com/repos/SiegeEngineers/aoe2techtree/contents/data/locales/tw\")",
       "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d['name'], d.get\\('download_url',''\\)\\) for d in data if isinstance\\(d,dict\\)]\")",
       "Bash(curl -s \"https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/master/data/data.json\")",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "PowerShell(pip install pyinstaller)",
+      "PowerShell(python -c \"import PyInstaller; print\\(PyInstaller.__file__\\)\")",
+      "PowerShell(python -m PyInstaller --version)",
+      "Bash(git add *)"
     ]
   }
 }
