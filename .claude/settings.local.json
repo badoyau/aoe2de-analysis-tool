@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(ls \"C:\\\\Users\\\\popo5\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\e1669be2-b7e2-401c-ad47-36e670729e59\\\\2ecb90cf-18a0-44c8-aa9a-b7e1e44ef0eb\\\\skills\\\\\")",
+      "Bash(pip show *)",
+      "Bash(python -c \"import mgz\")",
+      "PowerShell(pip install \"git+https://github.com/AoEInsights/mgz-fast.git\" --quiet 2>&1)",
+      "PowerShell(python $skillScript $replay 2>&1)",
+      "PowerShell($skillScript = \"C:\\\\Users\\\\popo5\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\e1669be2-b7e2-401c-ad47-36e670729e59\\\\2ecb90cf-18a0-44c8-aa9a-b7e1e44ef0eb\\\\skills\\\\aoe2-mgz-parse\\\\scripts\\\\parse_replay.py\")",
+      "PowerShell($replay = \"C:\\\\Users\\\\popo5\\\\OneDrive\\\\���\\\\Claude\\\\0_Claude_Code\\\\Age of Empires II DE_Analysis Tool\\\\MP Replay v101.103.48086.0 @2026.06.28 001232 \\(8\\).aoe2record\")",
+      "PowerShell(python $script $replay 2>&1)",
+      "PowerShell($script = \"C:\\\\Users\\\\popo5\\\\OneDrive\\\\���\\\\Claude\\\\0_Claude_Code\\\\Age of Empires II DE_Analysis Tool\\\\scripts\\\\parse_replay.py\")",
+      "PowerShell(python -c \"import mgz.fast; print\\(dir\\(mgz.fast\\)\\)\")",
+      "PowerShell(python \"C:\\\\Users\\\\popo5\\\\OneDrive\\\\���\\\\Claude\\\\0_Claude_Code\\\\Age of Empires II DE_Analysis Tool\\\\scripts\\\\test_api.py\" 2>&1)",
+      "PowerShell(python \"C:\\\\Users\\\\popo5\\\\OneDrive\\\\���\\\\Claude\\\\0_Claude_Code\\\\Age of Empires II DE_Analysis Tool\\\\scripts\\\\test_api2.py\" 2>&1)",
+      "PowerShell(python \"C:\\\\Users\\\\popo5\\\\OneDrive\\\\���\\\\Claude\\\\0_Claude_Code\\\\Age of Empires II DE_Analysis Tool\\\\scripts\\\\parse_replay.py\" 2>&1)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)",
+      "PowerShell(gh api repos/SiegeEngineers/aoc-reference-data/contents/data 2>&1)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:aoe2techtree.net)",
+      "PowerShell(cd \"C:\\\\Users\\\\popo5\\\\OneDrive\\\\文件\\\\Claude\\\\0_Claude_Code\\\\Age of Empires II DE_Analysis Tool\"; $env:PYTHONIOENCODING=\"utf-8\"; python scripts/generate_web_report.py \"MP Replay v101.103.48086.0 @2026.06.28 001232 \\(8\\).aoe2record\" 2>&1)",
+      "WebFetch(domain:aoe2.guide)",
+      "WebFetch(domain:www.aoe2insights.com)",
+      "WebFetch(domain:ageofempires.wiki.gg)",
+      "WebFetch(domain:ageofempires.fandom.com)",
+      "WebFetch(domain:zh.ageofempires.fandom.com)",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=aoe2techtree&sort=stars\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(r['full_name'], r['html_url']\\) for r in data.get\\('items',[]\\)[:5]]\")",
+      "Bash(curl -s \"https://api.github.com/repos/SiegeEngineers/aoe2techtree/contents/data\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d['name']\\) for d in data if isinstance\\(d,dict\\)]\")",
+      "Bash(curl -s \"https://api.github.com/repos/SiegeEngineers/aoe2techtree/contents/data/locales\")",
+      "Bash(curl -s \"https://api.github.com/repos/SiegeEngineers/aoe2techtree/contents/data/locales/tw\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d['name'], d.get\\('download_url',''\\)\\) for d in data if isinstance\\(d,dict\\)]\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/master/data/data.json\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

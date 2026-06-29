@@ -1,0 +1,1722 @@
+{
+  "_note": "AOE2 DE unit_id -> name mapping. TW names from SiegeEngineers/aoe2techtree tw/strings.json + en help strings",
+  "_age_note": "age: D=黑暗 F=封建 C=城堡 I=帝王",
+  "_class_note": "class: econ/cavalry/infantry/archer/siege/support/unique/naval",
+  "units": [
+    {
+      "id": 4,
+      "en": "Archer",
+      "tw": "弓兵",
+      "age": "F",
+      "class": "archer"
+    },
+    {
+      "id": 5,
+      "en": "Hand Cannoneer",
+      "tw": "火槍兵",
+      "age": "I",
+      "class": "archer"
+    },
+    {
+      "id": 6,
+      "en": "Elite Skirmisher",
+      "tw": "精銳矛兵",
+      "age": "C",
+      "class": "archer"
+    },
+    {
+      "id": 7,
+      "en": "Skirmisher",
+      "tw": "矛兵",
+      "age": "F",
+      "class": "archer"
+    },
+    {
+      "id": 8,
+      "en": "Longbowman",
+      "tw": "長弓兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 11,
+      "en": "Mangudai",
+      "tw": "蒙古突騎",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 13,
+      "en": "Fishing Ship",
+      "tw": "漁船",
+      "age": "D",
+      "class": "naval"
+    },
+    {
+      "id": 17,
+      "en": "Trade Cog",
+      "tw": "貿易商旅",
+      "age": "F",
+      "class": "econ"
+    },
+    {
+      "id": 21,
+      "en": "War Galley",
+      "tw": "弩砲戰船",
+      "age": "F",
+      "class": "naval"
+    },
+    {
+      "id": 24,
+      "en": "Crossbowman",
+      "tw": "弩兵",
+      "age": "C",
+      "class": "archer"
+    },
+    {
+      "id": 25,
+      "en": "Teutonic Knight",
+      "tw": "條頓騎士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 36,
+      "en": "Bombard Cannon",
+      "tw": "火炮",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 38,
+      "en": "Knight",
+      "tw": "騎士",
+      "age": "C",
+      "class": "cavalry"
+    },
+    {
+      "id": 39,
+      "en": "Cavalry Archer",
+      "tw": "馬騎弓兵",
+      "age": "C",
+      "class": "archer"
+    },
+    {
+      "id": 40,
+      "en": "Cataphract",
+      "tw": "拜占庭聖騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 41,
+      "en": "Huskarl",
+      "tw": "哥德衛隊",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 42,
+      "en": "Trebuchet",
+      "tw": "巨型投石機",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 46,
+      "en": "Janissary",
+      "tw": "土耳其火槍兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 73,
+      "en": "Chu Ko Nu",
+      "tw": "連弩兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 74,
+      "en": "Militia",
+      "tw": "民兵",
+      "age": "D",
+      "class": "infantry"
+    },
+    {
+      "id": 75,
+      "en": "Man-at-Arms",
+      "tw": "裝甲步兵",
+      "age": "F",
+      "class": "infantry"
+    },
+    {
+      "id": 77,
+      "en": "Long Swordsman",
+      "tw": "長劍兵",
+      "age": "C",
+      "class": "infantry"
+    },
+    {
+      "id": 83,
+      "en": "Villager",
+      "tw": "村民",
+      "age": "D",
+      "class": "econ"
+    },
+    {
+      "id": 93,
+      "en": "Spearman",
+      "tw": "長槍兵",
+      "age": "F",
+      "class": "infantry"
+    },
+    {
+      "id": 125,
+      "en": "Monk",
+      "tw": "僧侶",
+      "age": "C",
+      "class": "support"
+    },
+    {
+      "id": 128,
+      "en": "Trade Cart",
+      "tw": "貿易車隊",
+      "age": "F",
+      "class": "econ"
+    },
+    {
+      "id": 185,
+      "en": "Slinger",
+      "tw": "投石手",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 207,
+      "en": "Imperial Camel Rider",
+      "tw": "帝國駱駝騎兵",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 218,
+      "en": "Heavy Cavalry Archer",
+      "tw": "重裝馬騎弓兵",
+      "age": "I",
+      "class": "archer"
+    },
+    {
+      "id": 232,
+      "en": "Woad Raider",
+      "tw": "菘藍武士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 237,
+      "en": "Arbalester",
+      "tw": "強弩兵",
+      "age": "I",
+      "class": "archer"
+    },
+    {
+      "id": 239,
+      "en": "War Elephant",
+      "tw": "戰象",
+      "age": "C",
+      "class": "cavalry"
+    },
+    {
+      "id": 250,
+      "en": "Longboat",
+      "tw": "大艇",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 257,
+      "en": "Onager",
+      "tw": "中型投石車",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 279,
+      "en": "Scorpion",
+      "tw": "弩砲",
+      "age": "C",
+      "class": "siege"
+    },
+    {
+      "id": 280,
+      "en": "Mangonel",
+      "tw": "輕型投石車",
+      "age": "C",
+      "class": "siege"
+    },
+    {
+      "id": 281,
+      "en": "Throwing Axeman",
+      "tw": "擲斧兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 282,
+      "en": "Mameluke",
+      "tw": "阿拉伯奴隸兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 283,
+      "en": "Cavalier",
+      "tw": "重裝騎士",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 291,
+      "en": "Samurai",
+      "tw": "日本武士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 329,
+      "en": "Camel Rider",
+      "tw": "駱駝騎兵",
+      "age": "C",
+      "class": "cavalry"
+    },
+    {
+      "id": 330,
+      "en": "Heavy Camel Rider",
+      "tw": "重裝駱駝騎兵",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 331,
+      "en": "Trebuchet (packed)",
+      "tw": "巨型投石機(收)",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 358,
+      "en": "Pikeman",
+      "tw": "重裝長槍兵",
+      "age": "C",
+      "class": "infantry"
+    },
+    {
+      "id": 359,
+      "en": "Halberdier",
+      "tw": "戟兵",
+      "age": "I",
+      "class": "infantry"
+    },
+    {
+      "id": 420,
+      "en": "Cannon Galleon",
+      "tw": "火砲戰船",
+      "age": "I",
+      "class": "naval"
+    },
+    {
+      "id": 422,
+      "en": "Capped Ram",
+      "tw": "裝甲衝撞車",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 429,
+      "en": "Halberdier",
+      "tw": "戟兵",
+      "age": "I",
+      "class": "infantry"
+    },
+    {
+      "id": 440,
+      "en": "Petard",
+      "tw": "炸藥桶",
+      "age": "C",
+      "class": "support"
+    },
+    {
+      "id": 441,
+      "en": "Hussar",
+      "tw": "匈牙利輕騎兵",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 442,
+      "en": "Galleon",
+      "tw": "重型弩砲戰船",
+      "age": "I",
+      "class": "naval"
+    },
+    {
+      "id": 448,
+      "en": "Scout Cavalry",
+      "tw": "偵察騎兵",
+      "age": "D",
+      "class": "cavalry"
+    },
+    {
+      "id": 473,
+      "en": "Two-Handed Swordsman",
+      "tw": "雙手劍兵",
+      "age": "I",
+      "class": "infantry"
+    },
+    {
+      "id": 474,
+      "en": "Heavy Cavalry Archer",
+      "tw": "重裝馬騎弓兵",
+      "age": "I",
+      "class": "archer"
+    },
+    {
+      "id": 492,
+      "en": "Arbalester",
+      "tw": "強弩兵",
+      "age": "I",
+      "class": "archer"
+    },
+    {
+      "id": 527,
+      "en": "Demolition Ship",
+      "tw": "爆破船",
+      "age": "F",
+      "class": "naval"
+    },
+    {
+      "id": 528,
+      "en": "Heavy Demolition Ship",
+      "tw": "重型爆破船",
+      "age": "I",
+      "class": "naval"
+    },
+    {
+      "id": 529,
+      "en": "Fire Ship",
+      "tw": "火戰船",
+      "age": "F",
+      "class": "naval"
+    },
+    {
+      "id": 530,
+      "en": "Elite Longbowman",
+      "tw": "精銳長弓兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 531,
+      "en": "Elite Throwing Axeman",
+      "tw": "精銳擲斧兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 532,
+      "en": "Fast Fire Ship",
+      "tw": "重型火戰船",
+      "age": "I",
+      "class": "naval"
+    },
+    {
+      "id": 533,
+      "en": "Elite Longboat",
+      "tw": "精銳大艇",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 534,
+      "en": "Elite Woad Raider",
+      "tw": "精銳菘藍武士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 539,
+      "en": "Galley",
+      "tw": "戰船",
+      "age": "D",
+      "class": "naval"
+    },
+    {
+      "id": 542,
+      "en": "Heavy Scorpion",
+      "tw": "重型弩砲",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 545,
+      "en": "Transport Ship",
+      "tw": "運輸船",
+      "age": "D",
+      "class": "naval"
+    },
+    {
+      "id": 546,
+      "en": "Light Cavalry",
+      "tw": "輕騎兵",
+      "age": "F",
+      "class": "cavalry"
+    },
+    {
+      "id": 548,
+      "en": "Siege Ram",
+      "tw": "重型衝撞車",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 550,
+      "en": "Onager",
+      "tw": "中型投石車",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 553,
+      "en": "Elite Cataphract",
+      "tw": "精銳拜占庭聖騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 554,
+      "en": "Elite Teutonic Knight",
+      "tw": "精銳條頓騎士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 555,
+      "en": "Elite Huskarl",
+      "tw": "精銳哥德衛隊",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 556,
+      "en": "Elite Mameluke",
+      "tw": "精銳阿拉伯奴隸兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 557,
+      "en": "Elite Janissary",
+      "tw": "精銳土耳其火槍兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 558,
+      "en": "Elite War Elephant",
+      "tw": "精銳戰象",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 559,
+      "en": "Elite Chu Ko Nu",
+      "tw": "精銳連弩兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 560,
+      "en": "Elite Samurai",
+      "tw": "精銳日本武士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 561,
+      "en": "Elite Mangudai",
+      "tw": "精銳蒙古突騎",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 567,
+      "en": "Champion",
+      "tw": "劍兵勇士",
+      "age": "I",
+      "class": "infantry"
+    },
+    {
+      "id": 569,
+      "en": "Paladin",
+      "tw": "遊俠",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 588,
+      "en": "Siege Onager",
+      "tw": "重型投石車",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 691,
+      "en": "Elite Cannon Galleon",
+      "tw": "精銳火砲戰船",
+      "age": "I",
+      "class": "naval"
+    },
+    {
+      "id": 692,
+      "en": "Berserk",
+      "tw": "狂戰士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 694,
+      "en": "Elite Berserk",
+      "tw": "精銳狂戰士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 725,
+      "en": "Jaguar Warrior",
+      "tw": "豹勇士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 726,
+      "en": "Elite Jaguar Warrior",
+      "tw": "精銳豹勇士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 751,
+      "en": "Eagle Scout",
+      "tw": "鷹斥候",
+      "age": "D",
+      "class": "infantry"
+    },
+    {
+      "id": 752,
+      "en": "Elite Eagle Warrior",
+      "tw": "精銳鷹勇士",
+      "age": "I",
+      "class": "infantry"
+    },
+    {
+      "id": 753,
+      "en": "Eagle Warrior",
+      "tw": "鷹勇士",
+      "age": "C",
+      "class": "infantry"
+    },
+    {
+      "id": 755,
+      "en": "Tarkan",
+      "tw": "答剌罕騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 757,
+      "en": "Elite Tarkan",
+      "tw": "答剌罕騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 759,
+      "en": "Huskarl",
+      "tw": "哥德衛隊",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 761,
+      "en": "Elite Huskarl",
+      "tw": "精銳哥德衛隊",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 763,
+      "en": "Plumed Archer",
+      "tw": "羽毛箭射手",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 765,
+      "en": "Elite Plumed Archer",
+      "tw": "精銳羽毛箭射手",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 771,
+      "en": "Conquistador",
+      "tw": "西班牙征服者",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 773,
+      "en": "Elite Conquistador",
+      "tw": "精銳西班牙征服者",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 775,
+      "en": "Missionary",
+      "tw": "傳教士",
+      "age": "C",
+      "class": "support"
+    },
+    {
+      "id": 827,
+      "en": "War Wagon",
+      "tw": "馬戰車",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 829,
+      "en": "Elite War Wagon",
+      "tw": "精銳馬戰車",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 831,
+      "en": "Turtle Ship",
+      "tw": "龜甲船",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 832,
+      "en": "Elite Turtle Ship",
+      "tw": "精銳龜甲船",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 866,
+      "en": "Genoese Crossbowman",
+      "tw": "熱那亞弩手",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 868,
+      "en": "Elite Genoese Crossbowman",
+      "tw": "精銳熱那亞弩手",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 869,
+      "en": "Magyar Huszar",
+      "tw": "馬札爾驃騎",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 871,
+      "en": "Elite Magyar Huszar",
+      "tw": "精銳馬札爾驃騎",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 873,
+      "en": "Elephant Archer",
+      "tw": "象弓騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 875,
+      "en": "Elite Elephant Archer",
+      "tw": "精銳象弓騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 876,
+      "en": "Boyar",
+      "tw": "貴族鐵騎",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 878,
+      "en": "Elite Boyar",
+      "tw": "精銳貴族鐵騎",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 879,
+      "en": "Kamayuk",
+      "tw": "槍隊長",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 881,
+      "en": "Elite Kamayuk",
+      "tw": "精銳槍隊長",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 882,
+      "en": "Condottiero",
+      "tw": "傭兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 886,
+      "en": "Tarkan",
+      "tw": "答剌罕騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 887,
+      "en": "Elite Tarkan",
+      "tw": "答剌罕騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1001,
+      "en": "Organ Gun",
+      "tw": "風琴砲",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1003,
+      "en": "Elite Organ Gun",
+      "tw": "精銳風琴砲",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1004,
+      "en": "Caravel",
+      "tw": "卡拉維爾帆船",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1006,
+      "en": "Elite Caravel",
+      "tw": "精銳卡拉維爾戰船",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1007,
+      "en": "Camel Archer",
+      "tw": "駱駝弓兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1009,
+      "en": "Elite Camel Archer",
+      "tw": "精銳駱駝弓兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1010,
+      "en": "Genitour",
+      "tw": "標槍騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1012,
+      "en": "Elite Genitour",
+      "tw": "精銳標槍騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1013,
+      "en": "Gbeto",
+      "tw": "飛刀女獵手",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1015,
+      "en": "Elite Gbeto",
+      "tw": "精銳飛刀女獵手",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1016,
+      "en": "Shotel Warrior",
+      "tw": "彎刀勇士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1018,
+      "en": "Elite Shotel Warrior",
+      "tw": "精銳彎刀勇士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1103,
+      "en": "Fire Galley",
+      "tw": "火攻箭船",
+      "age": "C",
+      "class": "naval"
+    },
+    {
+      "id": 1104,
+      "en": "Demolition Raft",
+      "tw": "自爆筏",
+      "age": "D",
+      "class": "naval"
+    },
+    {
+      "id": 1105,
+      "en": "Siege Tower",
+      "tw": "攻城塔",
+      "age": "C",
+      "class": "siege"
+    },
+    {
+      "id": 1120,
+      "en": "Ballista Elephant",
+      "tw": "弩砲象",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1122,
+      "en": "Elite Ballista Elephant",
+      "tw": "精銳弩砲象",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1123,
+      "en": "Karambit Warrior",
+      "tw": "爪刀戰士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1125,
+      "en": "Elite Karambit Warrior",
+      "tw": "精銳爪刀戰士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1126,
+      "en": "Arambai",
+      "tw": "飛鏢騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1128,
+      "en": "Elite Arambai",
+      "tw": "精銳飛鏢騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1129,
+      "en": "Rattan Archer",
+      "tw": "藤甲弓兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1131,
+      "en": "Elite Rattan Archer",
+      "tw": "精銳藤甲弓兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1132,
+      "en": "Battle Elephant",
+      "tw": "矛象伕",
+      "age": "C",
+      "class": "cavalry"
+    },
+    {
+      "id": 1134,
+      "en": "Elite Battle Elephant",
+      "tw": "精銳矛象伕",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 1155,
+      "en": "Imperial Skirmisher",
+      "tw": "帝王戰矛兵",
+      "age": "I",
+      "class": "infantry"
+    },
+    {
+      "id": 1225,
+      "en": "Konnik",
+      "tw": "保加利亞騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1227,
+      "en": "Elite Konnik",
+      "tw": "精銳保加利亞騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1228,
+      "en": "Keshik",
+      "tw": "怯薛",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1230,
+      "en": "Elite Keshik",
+      "tw": "精銳怯薛",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1231,
+      "en": "Kipchak",
+      "tw": "欽察",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1233,
+      "en": "Elite Kipchak",
+      "tw": "精銳欽察",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1234,
+      "en": "Leitis",
+      "tw": "烈堤司",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1236,
+      "en": "Elite Leitis",
+      "tw": "精銳烈堤司",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1252,
+      "en": "Konnik (Dismounted)",
+      "tw": "保加利亞騎兵 (下馬)",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1253,
+      "en": "Elite Konnik (Dismounted)",
+      "tw": "精銳保加利亞騎兵 (下馬)",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1254,
+      "en": "Konnik",
+      "tw": "保加利亞騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1255,
+      "en": "Elite Konnik",
+      "tw": "精銳保加利亞騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1258,
+      "en": "Battering Ram",
+      "tw": "輕型衝撞車",
+      "age": "C",
+      "class": "siege"
+    },
+    {
+      "id": 1260,
+      "en": "Elite Kipchak",
+      "tw": "精銳欽察",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1263,
+      "en": "Flaming Camel",
+      "tw": "火焰駱駝",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 1302,
+      "en": "Dragon Ship",
+      "tw": "龍舟",
+      "age": "C",
+      "class": "naval"
+    },
+    {
+      "id": 1370,
+      "en": "Steppe Lancer",
+      "tw": "草原長矛騎兵",
+      "age": "C",
+      "class": "cavalry"
+    },
+    {
+      "id": 1372,
+      "en": "Elite Steppe Lancer",
+      "tw": "精銳草原長矛騎兵",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 1570,
+      "en": "Xolotl Warrior",
+      "tw": "修羅托戰士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1655,
+      "en": "Coustillier",
+      "tw": "馬上輕裝兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1657,
+      "en": "Elite Coustillier",
+      "tw": "精銳馬上輕裝兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1658,
+      "en": "Serjeant",
+      "tw": "薩金特衛兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1659,
+      "en": "Elite Serjeant",
+      "tw": "精銳薩金特衛兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1660,
+      "en": "Serjeant",
+      "tw": "薩金特衛兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1661,
+      "en": "Elite Serjeant",
+      "tw": "精銳薩金特衛兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1699,
+      "en": "Flemish Militia",
+      "tw": "佛萊明民兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1701,
+      "en": "Obuch",
+      "tw": "奧布奇戰錘兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1703,
+      "en": "Elite Obuch",
+      "tw": "精銳奧布奇戰錘兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1704,
+      "en": "Hussite Wagon",
+      "tw": "胡斯派戰車",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1706,
+      "en": "Elite Hussite Wagon",
+      "tw": "精銳胡斯派戰車",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1707,
+      "en": "Winged Hussar",
+      "tw": "翼騎兵",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 1709,
+      "en": "Houfnice",
+      "tw": "榴彈砲",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1735,
+      "en": "Urumi Swordsman",
+      "tw": "鞭劍兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1737,
+      "en": "Elite Urumi Swordsman",
+      "tw": "精銳鞭劍兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1738,
+      "en": "Ratha (Melee)",
+      "tw": "戰車 (近戰)",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1740,
+      "en": "Elite Ratha (Melee)",
+      "tw": "精銳戰車 (近戰)",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1741,
+      "en": "Chakram Thrower",
+      "tw": "輪刃兵投擲手",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1743,
+      "en": "Elite Chakram Thrower",
+      "tw": "精銳輪刃兵投擲手",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1744,
+      "en": "Armored Elephant",
+      "tw": "披甲戰象",
+      "age": "C",
+      "class": "cavalry"
+    },
+    {
+      "id": 1746,
+      "en": "Siege Elephant",
+      "tw": "攻城戰象",
+      "age": "I",
+      "class": "cavalry"
+    },
+    {
+      "id": 1747,
+      "en": "Ghulam",
+      "tw": "古拉姆",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1749,
+      "en": "Elite Ghulam",
+      "tw": "精銳古拉姆",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1750,
+      "en": "Thirisadai",
+      "tw": "樓船",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1751,
+      "en": "Shrivamsha Rider",
+      "tw": "施里瓦姆沙騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1753,
+      "en": "Elite Shrivamsha Rider",
+      "tw": "精銳施里瓦姆沙騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1755,
+      "en": "Camel Scout",
+      "tw": "駱駝斥侯",
+      "age": "D",
+      "class": "cavalry"
+    },
+    {
+      "id": 1759,
+      "en": "Ratha (Ranged)",
+      "tw": "戰車 (遠程)",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1761,
+      "en": "Elite Ratha (Ranged)",
+      "tw": "精銳戰車 (遠程)",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1790,
+      "en": "Centurion",
+      "tw": "百夫長",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1792,
+      "en": "Elite Centurion",
+      "tw": "精銳百夫長",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1793,
+      "en": "Legionary",
+      "tw": "軍團兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1795,
+      "en": "Dromon",
+      "tw": "德羅蒙戰艦",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1800,
+      "en": "Composite Bowman",
+      "tw": "複合弓箭手",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1802,
+      "en": "Elite Composite Bowman",
+      "tw": "精銳複合弓箭手",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1803,
+      "en": "Monaspa",
+      "tw": "莫納斯帕騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1805,
+      "en": "Elite Monaspa",
+      "tw": "精銳莫納斯帕騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1811,
+      "en": "Warrior Priest",
+      "tw": "戰鬥祭司",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1813,
+      "en": "Savar",
+      "tw": "薩瓦騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1901,
+      "en": "Fire Lancer",
+      "tw": "火長矛兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1903,
+      "en": "Elite Fire Lancer",
+      "tw": "精銳火長矛兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1904,
+      "en": "Rocket Cart",
+      "tw": "火箭車",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1907,
+      "en": "Heavy Rocket Cart",
+      "tw": "重型火箭車",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1908,
+      "en": "Iron Pagoda",
+      "tw": "鐵浮屠",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1910,
+      "en": "Elite Iron Pagoda",
+      "tw": "精銳鐵浮屠",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1911,
+      "en": "Grenadier",
+      "tw": "擲彈兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1920,
+      "en": "Liao Dao",
+      "tw": "遼刀兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1922,
+      "en": "Elite Liao Dao",
+      "tw": "精銳遼刀兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1923,
+      "en": "Mounted Trebuchet",
+      "tw": "機動投石機",
+      "age": "I",
+      "class": "siege"
+    },
+    {
+      "id": 1942,
+      "en": "Traction Trebuchet",
+      "tw": "牽引投石機",
+      "age": "C",
+      "class": "siege"
+    },
+    {
+      "id": 1944,
+      "en": "Hei Guang Cavalry",
+      "tw": "黑光騎",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1946,
+      "en": "Heavy Hei Guang Cavalry",
+      "tw": "黑光騎",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1948,
+      "en": "Lou Chuan",
+      "tw": "樓船",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1949,
+      "en": "Tiger Cavalry",
+      "tw": "虎賁騎",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1951,
+      "en": "Elite Tiger Cavalry",
+      "tw": "精銳虎賁騎",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1952,
+      "en": "Xianbei Raider",
+      "tw": "鮮卑劫掠者",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1954,
+      "en": "Cao Cao",
+      "tw": "曹操",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1959,
+      "en": "White Feather Guard",
+      "tw": "白羽衛",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1961,
+      "en": "Elite White Feather Guard",
+      "tw": "精銳白羽衛",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1962,
+      "en": "War Chariot",
+      "tw": "戰車",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1966,
+      "en": "Liu Bei",
+      "tw": "劉備",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1968,
+      "en": "Fire Archer",
+      "tw": "火弓兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1970,
+      "en": "Elite Fire Archer",
+      "tw": "精銳火弓兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 1974,
+      "en": "Jian Swordsman",
+      "tw": "劍兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1978,
+      "en": "Sun Jian",
+      "tw": "孫堅",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 1980,
+      "en": "War Chariot (Barrage)",
+      "tw": "戰車 (齊射)",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2550,
+      "en": "Champi Scout",
+      "tw": "贊皮斥候",
+      "age": "D",
+      "class": "unique"
+    },
+    {
+      "id": 2552,
+      "en": "Champi Warrior",
+      "tw": "贊皮戰士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2554,
+      "en": "Elite Champi Warrior",
+      "tw": "精銳贊皮戰士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2562,
+      "en": "Guecha Warrior",
+      "tw": "格查戰士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2564,
+      "en": "Elite Guecha Warrior",
+      "tw": "精銳格查戰士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2566,
+      "en": "Kona",
+      "tw": "科納",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2568,
+      "en": "Elite Kona",
+      "tw": "精銳科納",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2569,
+      "en": "Bolas Rider",
+      "tw": "擲石繩騎兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2571,
+      "en": "Elite Bolas Rider",
+      "tw": "精銳擲石繩騎兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2579,
+      "en": "Blackwood Archers",
+      "tw": "黑檀木弓兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2581,
+      "en": "Elite Blackwood Archers",
+      "tw": "精銳黑檀木弓兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2582,
+      "en": "Ibirapema Warrior",
+      "tw": "伊比拉佩瑪戰士",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2584,
+      "en": "Elite Ibirapema Warrior",
+      "tw": "精銳伊比拉佩瑪戰士",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2586,
+      "en": "Temple Guard",
+      "tw": "神廟衛兵",
+      "age": "C",
+      "class": "unique"
+    },
+    {
+      "id": 2587,
+      "en": "Elite Temple Guard",
+      "tw": "精銳神廟衛兵",
+      "age": "I",
+      "class": "unique"
+    },
+    {
+      "id": 2626,
+      "en": "Hulk",
+      "tw": "浩克船",
+      "age": "C",
+      "class": "naval"
+    },
+    {
+      "id": 2627,
+      "en": "War Hulk",
+      "tw": "浩克戰船",
+      "age": "I",
+      "class": "naval"
+    },
+    {
+      "id": 2628,
+      "en": "Carrack",
+      "tw": "克拉克帆船",
+      "age": "C",
+      "class": "naval"
+    },
+    {
+      "id": 2633,
+      "en": "Catapult Galleon",
+      "tw": "投石戰船",
+      "age": "I",
+      "class": "naval"
+    }
+  ]
+}
