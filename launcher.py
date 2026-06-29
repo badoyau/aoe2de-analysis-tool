@@ -18,6 +18,8 @@ else:
 SCRIPTS_DIR  = PROJECT_ROOT / "scripts"
 HISTORY_FILE = PROJECT_ROOT / ".analyzer_history.json"
 
+VERSION = "1.0.0"
+
 STEPS = [
     ("① 解析標頭",        "parse_replay.py"),
     ("② 解析主體",        "parse_body.py"),
@@ -41,7 +43,7 @@ WARN   = "#ff9800"
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("⚔️  AOE2 DE Replay 分析工具")
+        self.title(f"⚔️  AOE2 DE Replay 分析工具  v{VERSION}")
         self.configure(bg=BG)
         self.minsize(700, 560)
         self._out_html = None
@@ -64,7 +66,7 @@ class App(tk.Tk):
         tk.Label(hdr, text="  ⚔️  AOE2 DE Replay 分析工具",
                  font=("Segoe UI", 14, "bold"), bg=GOLD, fg="#1a1a2e",
                  pady=10).pack(side="left")
-        tk.Label(hdr, text="Age of Empires II DE  ",
+        tk.Label(hdr, text=f"v{VERSION}  ",
                  font=("Segoe UI", 9), bg=GOLD, fg="#5a3a0a").pack(side="right")
 
         # Main body
